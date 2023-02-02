@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=3.0">
+  <meta name="robots" content="noindex">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <title></title>
+  <link rel="shortcut icon" href="../img/favicon.ico" />
+  <link rel="stylesheet" href="../css/style.css" media="all">
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <div class="inner">
+        <div class="head-gp">
+          <h1 class="logo"><a href="../index.html"><img src="../img/header_logo.png" alt="ひこくじonline"></a></h1>
+          <div class="navigation sp">
+            <img src="../img/menu_off.png" alt="menu-off">
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- /header !-->
+    <div class="content" id="contact">
+      <div class="inner">
+        <div class="img-exchange">
+          <a href="./henpin/index.html"><img src="../img/img_exchange.png" alt="返品・交換について"></a>
+        </div>
+        <div class="form-gp">
+          <h2 class="head-ttl"><img src="../img/inquiry_ttl.png" alt="お問い合わせフォーム"></h2>
+          <form>
+            <label for="inquiry">お問い合わせ内容 <span>※</span></label>
+            <input name="inquiry" id="inquiry" class="d-none">
+            <div class="custom-select">
+              <select>
+                <option value="0">選択してください</option>
+                <option value="1">✓商品について</option>
+                <option value="2">キャンペーンについて</option>
+                <option value="3">その他</option>
+              </select>
+            </div>
+            <label for="name">お名前 <span>※</span></label>
+            <input type="text" id="name" name="name">
+            <label for="furigana">ふりがな <span>※</span></label>
+            <input type="text" id="furigana" name="furigana">
+            <label for="mail">メールアドレス <span>※</span></label>
+            <input type="text" id="mail" name="mail">
+            <label for="main-confirm">メールアドレス（確認用）<span>※</span></label>
+            <input type="text" id="main-confirm" name="main-confirm">
+            <div class="fileupload">
+              <label for="file">ファイル添付</label>
+              <span class="file">
+                <input type="text" name="file" class="file-txt" placeholder="ファイルを選択してください">
+                <input type="file" id="file" name="file">
+              </span>
+            </div>
+            <label for="file">お問い合わせ内容 <span>※</span></label>
+            <textarea id="subject" name="subject"></textarea>
+            <input type="submit" value="内容を確認する">
+          </form>
+        </div>
+        <!-- /.form-gp !-->
+      </div>
+    </div>
+    <!-- /.content !-->
+    <ul class="img-socialgp">
+      <li><a href="https://www.instagram.com/hikokuji/?hl=ja"><img src="../img/img_instagram.png" alt="instagram"></a></li>
+      <li><a href="https://twitter.com/hikokuji"><img src="../img/img_twitter.png" alt="twitter"></a></li>
+    </ul>
+    <!-- /.img-socialgp !-->
+    <footer>
+      <div class="txt-gp">
+        <ul>
+          <li><a href="#">返品・交換について</a></li>
+          <li><a href="#">お問い合わせ</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">利用規約</a></li>
+          <li class="bd-none"><a href="#">特定商取引法に基づく表示</a></li>
+          <li><a href="#">資金決済法に基づく表示</a></li>
+          <li class="bd-none"><a href="#">プライバシーポリシー</a></li>
+          <li class="d-block"><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+       <!-- /.txt-gp !-->
+      <div class="txt-reserve">
+        <p>©2021 HIKOKUJI All Rights Reserved.</p>
+      </div>
+    </footer>
+    <!-- /footer !-->
+  </div>
+  <!-- /#contact !-->
+  <script src="../js/custom-select.js"></script>
+</body>
+
+</html>
